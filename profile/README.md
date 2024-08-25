@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Bot API](https://img.shields.io/badge/Bot%20API-7.7+-blue?logo=telegram&style=flat&labelColor=000&color=3b82f6)](https://core.telegram.org/bots/api)
+[![Bot API](https://img.shields.io/badge/Bot%20API-7.9+-blue?logo=telegram&style=flat&labelColor=000&color=3b82f6)](https://core.telegram.org/bots/api)
 [![npm](https://img.shields.io/npm/v/gramio?logo=npm&style=flat&labelColor=000&color=3b82f6)](https://www.npmjs.com/package/gramio)
 [![JSR](https://jsr.io/badges/@gramio/core)](https://jsr.io/@gramio/core)
 [![JSR Score](https://jsr.io/badges/@gramio/core/score)](https://jsr.io/@gramio/core)
@@ -15,11 +15,9 @@ TypeScript/JavaScript Telegram Bot API Framework for create your bots with conve
 
 🛡️ **Type-safe** - Written in TypeScript with love ❤️
 
-🌐 **Multi-runtime** - Works on [Node.js](https://nodejs.org/), [Bun](https://bun.sh/) and [Deno](https://deno.com/)\*
+🌐 **Multi-runtime** - Works on [Node.js](https://nodejs.org/), [Bun](https://bun.sh/) and [Deno](https://deno.com/)
 
 ⚙️ **Code-generated** - Many parts are code-generated (for example, [code-generated and auto-published Telegram Bot API types](https://github.com/gramiojs/types))
-
-**Deno\*** [windows-specific issue with undici](https://github.com/denoland/deno/issues/19532)
 
 ## [Get started](https://gramio.dev/get-started)
 
