@@ -24,7 +24,7 @@ TypeScript/JavaScript Telegram Bot API Framework for create your bots with conve
 To create your new bot, you just need to write it to the console:
 
 ```bash [npm]
-npm create gramio ./bot
+npm create gramio@latest ./bot
 ```
 
 and GramIO customize your project the way you want it!
@@ -34,11 +34,11 @@ and GramIO customize your project the way you want it!
 ```typescript
 import { Bot } from "gramio";
 
-const bot = new Bot()
+const bot = new Bot(process.env.BOT_TOKEN as string)
     .command("start", (context) => context.send("Hello!"))
     .onStart(({ info }) => console.log(`✨ Bot ${info.username} was started!`));
 
 bot.start();
 ```
 
-For more, please see [documentation](https://gramio.dev).
+For more, please see [documentation](https://gramio.dev) and [get-started guide](https://gramio.dev/get-started).
